@@ -3,7 +3,7 @@
 
 Set,CommunalHelper.DeployElytra,E
 
-RecordCount: 1998
+RecordCount: 2533
 
 console load monikadsidespack/0/10-Farewell
    1
@@ -13,7 +13,7 @@ console ch_toggle_elytra
   90
 
 #lvl_a-00-intro
-## Spinner Cycle [a-10] & [aa-00-lobby]
+## Electricity Load Cycle [a-10]
    2
 ##
    2,L,J
@@ -270,96 +270,159 @@ EndRepeat
   15,R,X
   14,R,Z
    1,R,J
-   1,J,PE,F,8
-   5,ML,PE,F,8
-   5,L,PE
+   1,J,PE,F,90
+   1,PE,F,292.7619
+   1,PE,F,294.3073
+   1,PE,F,295.8791
+   1,PE,F,297.4802
+   1,PE,F,298.3
+   9,PE,F,270
    1,L
-   4,R
+   1,R
   12,R,J
-   8,R,D,X
+   7,R,D,X
   40
 
 #lvl_a-05
-   7,R,D,X
-   8,R,J
-   3,R,K,G
-   2,R
-  11,R,D,X
+   8,R,D,X
    1,R,J
-   1,R,K,G
-   1,R,J,G
+   1,J,PE,F,90
+   1,PE,F,60.9763
+   1,PE,F,90
+   1,PE,F,62.26
+  13,PE,F,270
+   1,L
    1,R
-   1,R,K,G
-   1,R,J,G
    1,R,J
-   1,J,PE,F,90.001
-   8,ML,PE,F,74.9
-  24,PE,F,67.404302
+  10,R,D,X
+   1,R,J
+   1,R,K,G
+   2,R,J,G
+   1,R,K,G
+   2,R,J,G
+   1,J,PE,F,90
+   1,ML,PE,F,90
+   1,PE,F,71.0242
+   1,PE,F,70.446
+   1,PE,F,69.865
+   1,PE,F,69.2808
+   1,PE,F,68.6936
+   1,PE,F,68.103
+   1,PE,F,67.5089
+   1,PE,F,66.9113
+   1,PE,F,66.42175
+  19,PE,F,89.98045
    8,R,D,X
    1,R,J,G
    1,R,K,G
-   7,R
-   2,R,J
+   9,R
+   1,R,J
    9,R,D,X
-   1,R,J,G
+   2,R,J,G
    1,R,K,G
-  14,R,D
-   1,R,D,J
+   1,R,J,G
+  14,R
   40
 
 #lvl_a-06
-   7,J,PE,F,90
-  19,PE,F,45
-  13,PE,F,90
+   1,R,D,J
+   1,J,PE,F,90
+   1,PE,F,74.0621
+   1,PE,F,73.7472
+   1,PE,F,73.4316
+   1,PE,F,73.1152
+   1,PE,F,72.7981
+   1,PE,F,72.4802
+   1,PE,F,72.1616
+   1,PE,F,71.8421
+   1,PE,F,71.5218
+   1,PE,F,71.2006
+   1,PE,F,70.8786
+   1,PE,F,70.5556
+   1,PE,F,70.35
+  20,PE,F,270
+   1,L
+   3,R
   40
 
 #lvl_a-07
-  13,PE,F,78.46
-  27,PE,F,10
+   3,R,D,J
+   1,J,PE,F,90
+   1,PE,F,74.0689
+Repeat, 14
+   1,PE,F,73.7545
+   1,PE,F,90
+EndRepeat
+   1,PE,F,73.7545
+   1,PE,F,73.4364
   40
 
 #lvl_a-08
-  18,PE,F,8
-   1,ML,PE,F,270
-  11,PE,F,90
-   5,R
-  15,R,D,X
-   1,R,D,J
+   1,PE,F,73.1175
+   1,PE,F,72.7978
+   1,PE,F,72.4774
+   1,PE,F,72.1562
+   1,PE,F,71.8341
+   1,PE,F,71.5112
+   1,PE,F,71.1874
+   1,PE,F,70.8628
+   1,PE,F,70.5372
+   1,PE,F,70.2107
+   1,PE,F,69.8833
+   1,PE,F,69.5549
+   1,PE,F,69.2255
+   1,PE,F,68.8952
+   1,PE,F,68.5637
+   1,PE,F,68.2313
+   1,PE,F,67.8977
+   1,PE,F,67.5631
+   1,PE,F,67.2273
+   1,PE,F,66.8904
+   1,PE,F,66.5523
+   1,PE,F,66.213
+   1,PE,F,66.5
+  13,PE,F,270
   40
 
 #lvl_a-09
-   1,J,PE,F,90
-   4,ML,PE,F,1
-   6,PE,F,270
-  23,PE,F,10
-   3,ML,PE,F,10
+  11,PE,F,270
+   1,PE,F,74.1154
+   1,PE,F,73.791
+   1,PE,F,73.4659
+   1,PE,F,73.14
+   1,PE,F,72.8133
+   1,PE,F,72.4858
+   1,PE,F,72.1574
+   1,PE,F,71.8282
+   1,PE,F,71.4981
+   1,PE,F,71.1671
+   1,PE,F,70.8352
+   1,PE,F,70.5023
+   1,PE,F,70.1685
+   1,PE,F,69.8336
+   1,ML,PE,F,69.4978
+   1,ML,PE,F,69.1609
+   1,PE,F,68.823
+   1,PE,F,68.484
+   1,ML,PE,F,68.1439
+   1,ML,PE,F,67.8026
+   1,PE,F,67.4602
+   1,PE,F,67.1166
   40
 
 #lvl_a-10
-   5,PE,F,10
-  15,PE,F,90
-StunPause
-   4,PE,F,90
-EndStunPause
-   3,PE,F,90
+   1,PE,F,66.7718
+   1,PE,F,66.4258
+   1,PE,F,66.0784
+   1,PE,F,65.7298
+   1,PE,F,65.3799
+   1,PE,F,65.0286
+   1,PE,F,64.6759
+  16,PE,F,90
    1,R
-   3,R,J,G
-   1,J
+   5,R,J,G
+Assert,Equal,a-10,{Level.Session.Level}
+Assert,Equal,40,{GameInfo.TransitionFrames}
+#Time
+MidwayFileTime: 0:36.312(2136)
   40
-
-#lvl_aa-00-lobby
-   2,J
-   4,R
-   3,R,J
-   2,J,PE,F,270
-  10,L
-  12,PE,F,90
-   1,PE,F,21.1348
-   1,PE,F,19.9094
-   1,PE,F,18.6025
-   1,PE,F,17.1955
-   1,PE,F,15.6615
-  40
-# good resync spot i think
-
-FileTime: 0:38.930(2290)
