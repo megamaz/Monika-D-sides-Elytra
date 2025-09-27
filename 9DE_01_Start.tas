@@ -3,18 +3,19 @@
 
 Set,CommunalHelper.DeployElytra,E
 
-RecordCount: 1587
+RecordCount: 1998
 
 console load monikadsidespack/0/10-Farewell
-console ch_toggle_elytra
-
    1
 
 #Start
+console ch_toggle_elytra
   90
 
 #lvl_a-00-intro
-
+## Spinner Cycle [a-10] & [aa-00-lobby]
+   2
+##
    2,L,J
    8,J
   15,U,X
@@ -30,8 +31,7 @@ console ch_toggle_elytra
   18
   15,U,X
    3,L
- 177
-  40
+ 217
 
 #lvl_a-00
   65
@@ -76,15 +76,31 @@ console ch_toggle_elytra
    1,L,D,J
    1,L,K,G
    1,J,G
-   7,MR,PE,F,10
-   9,PE,F,90
-  26,PE,F,30
-   6,PE,F,90
-   3,PE,F,10
+   1,J,PE,F,90
+   1,PE,F,69.6367
+Repeat, 4
+   1,PE,F,68.9959
+   1,PE,F,90
+EndRepeat
+   1,PE,F,68.9959
+   1,PE,F,68.3468
+   1,PE,F,67.6936
+   1,PE,F,67.0361
+   1,PE,F,66.3741
+   1,PE,F,65.7074
+   1,PE,F,65.0359
+   1,PE,F,64.3593
+   1,PE,F,63.6774
+Repeat, 14
+   1,PE,F,62.99
+   1,PE,F,90
+EndRepeat
+   1,PE,F,62.99
   40
 
 #lvl_a-02
-   2,PE,F,10
+   1,PE,F,62.3015
+   1,PE,F,61.9
    1,R
   11,R,X
    1,R,J
@@ -151,13 +167,16 @@ console ch_toggle_elytra
 #lvl_a-03
    5,R
    1,R,J
-  24,PE,F,90
-   1,R
-   2,R,D,J
-   5,R
-  16,PE,F,74
-   3
-   3,R
+  19,J,PE,F,90
+   8,R
+   1,R,D,J
+  12,J,PE,F,90
+Repeat, 3
+   1,PE,F,74.87
+   1,PE,F,90
+EndRepeat
+   5
+   2,R
   15,D,X
    4,J
   15,R,J
@@ -184,29 +203,72 @@ console ch_toggle_elytra
    1,R,J
    1,R
    1,R,D
-  17,PE,F,75
-  37,PE,F,78.46
-  34,PE,F,68
-   7,PE,F,78.45
-  26,PE,F,57.98
-  12,PE,F,78.45
-  21,D
-   1,L,D
-   2
-   5,L,D
-   1,L
-   1,L,D
-   1,L
    1,PE,F,90
-Repeat, 22
-   1,PE,F,54.07
+   1,PE,F,79.879
+   1,PE,F,78.3123
+   1,PE,F,76.7045
+Repeat, 8
+   1,PE,F,75.0824
    1,PE,F,90
 EndRepeat
-   7,R
+Repeat, 7
+   1,PE,F,90
+   1,PE,F,76.7045
+EndRepeat
+   3,PE,F,90
+Repeat, 11
+   1,PE,F,90
+   1,PE,F,76.7045
+EndRepeat
+   1,PE,F,75.0135
+   1,PE,F,73.272
+   1,PE,F,71.5093
+   1,PE,F,69.7225
+   1,PE,F,67.9084
+   1,PE,F,66.0637
+   1,PE,F,64.1843
+   1,PE,F,62.2661
+   2,PE,F,90
+Repeat, 6
+   1,PE,F,64.1935
+   1,PE,F,90
+EndRepeat
+   6,PE,F,90
+   1,PE,F,78.4
+   1,PE,F,76.5846
+   1,PE,F,74.7463
+   1,PE,F,72.8865
+   1,PE,F,71.0019
+   1,PE,F,69.089
+   1,PE,F,67.1439
+   1,PE,F,65.162
+   1,PE,F,63.1386
+   1,PE,F,61.068
+   1,PE,F,58.9437
+Repeat, 5
+   1,PE,F,56.7583
+   1,PE,F,90
+EndRepeat
+   7,PE,F,90
+Repeat, 4
+   1,PE,F,71.6479
+   1,PE,F,90
+EndRepeat
+Repeat, 8
+   1,PE,F,90
+   1,PE,F,73.6857
+EndRepeat
+  17,PE,F,90
+   1,PE,F,0
+   1,PE,F,86.0106
+   1,PE,F,84.0024
+   1,PE,F,81.9918
+   1,PE,F,79.9777
+   1,PE,F,77.9594
+   1,PE,F,76.7
+   5,R
+  15,R,X
   14,R,Z
-
-#0:26.044(1532)
-
    1,R,J
    1,J,PE,F,8
    5,ML,PE,F,8
@@ -281,7 +343,23 @@ StunPause
 EndStunPause
    3,PE,F,90
    1,R
-   4,R,J,G
+   3,R,J,G
+   1,J
   40
 
-FileTime: 0:38.726(2278)
+#lvl_aa-00-lobby
+   2,J
+   4,R
+   3,R,J
+   2,J,PE,F,270
+  10,L
+  12,PE,F,90
+   1,PE,F,21.1348
+   1,PE,F,19.9094
+   1,PE,F,18.6025
+   1,PE,F,17.1955
+   1,PE,F,15.6615
+  40
+# good resync spot i think
+
+FileTime: 0:38.930(2290)
