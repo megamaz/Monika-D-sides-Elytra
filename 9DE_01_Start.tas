@@ -3,7 +3,7 @@
 
 Set,CommunalHelper.DeployElytra,E
 
-RecordCount: 4559
+RecordCount: 4725
 
 console load monikadsidespack/0/10-Farewell
    1
@@ -227,50 +227,52 @@ EndRepeat
    5,R,D,X
    1,L
    2,K,G
+   1
   40
 
 # lvl_a-05
-   2
+   1
    1,PE,F,90
    1,PE,F,70.15
    6,PE,F,90
    3,R
    1,R,J
-   8,R,D,X
+  11,R,D,X
    1,R,J
    1,R,K,G
    2,R,J,G
    1,R,K,G
-  14,R,J,G
-   3
-   1,PE,F,90
+   4,R,J,G
+   1,J,PE,F,90
    1,PE,F,74.3889
    1,PE,F,73.9044
    1,PE,F,73.4183
    1,PE,F,72.9304
    1,PE,F,72.4406
    1,PE,F,71.949
-   1,PE,F,70.9599
-   1,PE,F,71.8106
-   4,PE,F,90
+   1,PE,F,70.9598
+   1,PE,F,71.810536
+  14,PE,F,72.316661
+   2,PE,F,72.3167
+   1,PE,F,72.316661
    5,R,D,X
    1,R,K,G
-   2,R,J,G
-   1,R,K,G
-   8,R
-   1,R,J
-  11,R,D,X
-   1,R,K,G
-   2,R,J,G
-   1,R,K,G
    1,R,J,G
-   5,R
-   1,R,J
-   8,R
+   2
+   6,R
    1,R,D,J
+#0:22.423(1319)
+
+   9,R,D,X
+   1,R,K,G
+   1,R
+   1,R,J,G
+  13,R,D
   40
 
 # lvl_a-06
+   1,R,D
+   1,D,J
    1,PE,F,90
    1,PE,F,74.8247
    1,PE,F,74.5251
@@ -290,28 +292,19 @@ EndRepeat
    1,PE,F,70.2584
    1,PE,F,69.9478
    1,PE,F,69.6364
-   1,PE,F,69.3241
-   1,PE,F,69.0109
-   1,PE,F,68.6967
-   1,PE,F,68.3817
-   1,PE,F,68.0656
-   1,PE,F,67.7486
-   1,PE,F,67.4306
-   1,PE,F,67.1115
-   1,PE,F,66.7914
-   1,PE,F,66.4703
-   5,PE,F,90
+  11,PE,F,10
   40
 
 # lvl_a-07
-  21,PE,F,90
+   3,PE,F,10
+  15,PE,F,90
   15,R,D,X
-   2,R,D
+   3,R,D
   40
 
 # lvl_a-08
    2,R,D
-   1,R,J
+   1,R,D,J
    1,J,PE,F,90
    1,PE,F,74.9042
    1,PE,F,74.6502
@@ -328,7 +321,6 @@ EndRepeat
    1,PE,F,71.8244
    1,PE,F,71.5644
    1,PE,F,71.3039
-   1,PE,F,71.0428
    1,ML,PE,F,70.7811
    1,PE,F,70.5188
    1,PE,F,70.256
@@ -339,11 +331,11 @@ EndRepeat
    1,PE,F,68.9323
    1,PE,F,68.6656
    1,PE,F,68.3982
-  13,ML,PE,F,90
+  11,ML,PE,F,90
   40
 
 # lvl_a-09
-  10,PE,F,270
+  12,PE,F,270
    1,PE,F,74.1296
    1,PE,F,73.8699
    1,PE,F,73.6096
@@ -356,13 +348,8 @@ EndRepeat
    1,PE,F,71.7734
    1,PE,F,71.5089
    1,PE,F,71.2438
-   1,PE,F,70.9782
-   1,PE,F,70.7119
-   1,PE,F,70.445
-   1,PE,F,70.1775
-   1,ML,PE,F,69.9094
+   3,ML,PE,F,69.9094
    1,PE,F,69.6406
-   1,PE,F,69.3712
    1,ML,PE,F,69.1011
    1,ML,PE,F,68.8303
    1,PE,F,68.5588
@@ -374,14 +361,16 @@ EndRepeat
    1,PE,F,67.7533
    1,PE,F,67.4789
    1,PE,F,67.2038
-   1,PE,F,66.9278
+   1,ML,PE,F,66.9278
    1,PE,F,66.6511
    1,PE,F,66.3736
-  12,PE,F,90
+   3,PE,F,66
+   9,PE,F,90
    1,L
    3,R,K,G
+
 Assert,Equal,a-10,{Level.Session.Level}
 Assert,Equal,40,{GameInfo.TransitionFrames}
 # Time
-MidwayFileTime: 0:30.668(1804)
+MidwayFileTime: 0:30.447(1791)
   40
