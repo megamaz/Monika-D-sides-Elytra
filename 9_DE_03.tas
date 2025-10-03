@@ -1,7 +1,7 @@
 # Monika's D-Sides
 # https://gamebanana.com/mods/150759
 
-RecordCount: 2734
+RecordCount: 3233
 
 Set,CommunalHelper.DeployElytra,E
 console load monikadsidespack/0/10-Farewell 8912 -2296
@@ -41,14 +41,14 @@ EndRepeat
   10,L
    2,PE,F,90
 Repeat, 45
-   1,PE,F,34.71
+   1,PE,F,36
    1,PE,F,90
 EndRepeat
-  13,U,X
+  14,U,X
   40
 
 #lvl_b-02
-  11,R
+   8,R
   18,U,X
    9,R,C
   12,R,U,X
@@ -72,46 +72,51 @@ Repeat, 21
    1,PE,F,77.6
    1,PE,F,90
 EndRepeat
-   7,PE,F,77
+   7,PE,F,76.9999
 Repeat, 7
-   1,PE,F,77.6
+   1,PE,F,77.42483
    1,PE,F,90
 EndRepeat
    1,R
    1,R,J
    1,J
    1,R,K,G
-   3,R,K
-   3,R
-   1,R
-   1,R,J,G
+   6,R,K
+   5,R,D,X
+   3,R,J,G
    5,R
-   2,R,J
-   4,R,K,G
+   2
+   2,R,D,J
   40
 
 #lvl_b-03
-  18,R,D,X
-   7,R,J
   15,R,D,X
-   1,R,D,J
+   1,D
+   1,R,D
+   6,R,J
+   1,J
+  15,R,D,X
+   1,D,J
    1,J,PE,F,90
-  12,PE,F,59
-  14,PE,F,90
-   8,PE,F,0
-   5,PE,F,78.47
-Repeat, 11
-   1,PE,F,67
+   1,PE,F,10
+Repeat, 8
+   1,PE,F,30
    1,PE,F,90
 EndRepeat
-   9,PE,F,90
-Repeat, 6
-   1,PE,F,78
+   7,PE,F,10
+   8,PE,F,90
+  12,PE,F,10
+  22,PE,F,90
+Repeat, 3
+   1,PE,F,75
    1,PE,F,90
 EndRepeat
-  54,PE,F,87.7
-  11,R,D
-   1,R
+Repeat, 27
+   1,PE,F,87.2
+   1,PE,F,90
+EndRepeat
+   2,R,D
+   7,D
    1,J
    5,R,U,X
   40
@@ -124,8 +129,8 @@ EndRepeat
   12,U,X
   21,R,G
    1,R
-   8,D
-  27,L,D
+   7,D
+  28,L,D
   17,L
    9,R,Z
   16,R,J
@@ -159,79 +164,69 @@ EndRepeat
   14,R,D,X
    5,R,J
    1,K
-   1,J
+   2,J
+   1
   14,U,X
-  15,R,J
-   1,K
-   7,L
-   1,G
-  15,R,D
-   1,G
-   2,R
-   1,G
-   3,R
-   1,G
-   6,D,G
-   5,R,J,G
-  11,R,D
-   1,R,J,G
-   1,K,G
-   8
+  13,L,J
    4,L
-   1,L,D
-   4,R,D
    1,R,J
-   7,R
+   1,L,J
+   1,G
+   1,R
+  31,L,D
+   5,D
+  10
+   6,L,Z
+   1,L,J
+   7,L
+   1,L,J
+  13,L,D,X
+   4,L,J
+  14,L,Z
+   1,R,J
+   6,R,D,X
    1,R,J,G
-  12,R,D
-   1,G
-   3
-   1,G
-   1
-   1,G
-   3
-   1,G
-   4
-   1,G
-   5
-   1,G
-   1
-   1,D,J
-  12,K,G
-  19,D
-   9,R,Z
+  16,R
+   3,R,J
+   1,J
+   1,R,J
+   4,J
+  14,R,U,Z
+   4,L,K,G
+   7,R
+   1,R,J
+   2,R
+  14,R,D,X
   40
 
 #lvl_b-06
-  35,R,D
+   1,R,D
+  14,R,D,C
+   1,R,K
+   3,R
+  13,D,X
+   2,R
   15,R,X
-   6,D
-  15,R
+  21,R,D
    8,R,J
-   9,R
-   5,R,J
-   9,R
-   1,R,D
-  15,R,Z
-   2,R,D
-   9,D
-   1,R,D
-   7,D
-   2,L,D
+  22,R
+  17,R,Z
+  12
    1,D
-  19,R
+   5,R,D
+   1,D
+  17,R
   15,R,D,X
-   4,R,D
-  11,R
-   8,R,D
+  19,R
+   5,R,D
   22,R
   25,R,U,X
    4,R,J
    4,R,Z
    5,R,J
    7,R
-   6
-  15,L,D
+   5
+  17,L,D
    8,R
   23,L,D
   12,L,D,X
@@ -324,15 +319,9 @@ EndRepeat
    1,L,J,G
    8,R
    2
-
-   1
-
    4,R,Z
    1,R,J
-   2,R
-   1,R,J
-   3,R
-   1,R,K
+   7,R
    3,R,J
    5,R,D,X
    2,R,J,G
@@ -608,4 +597,4 @@ EndRepeat
   13,R
   13,U,X
   96
-MidwayFileTime: 1:13.219(4307)
+MidwayFileTime: 1:12.811(4283)
